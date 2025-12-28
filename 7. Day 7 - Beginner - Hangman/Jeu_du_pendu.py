@@ -92,7 +92,7 @@ while chance < 6  and "*" in a_deviner:
     afficher_pendu(chance,pendu)
     print("".join(a_deviner))
 
-if chance <= 0:
+if chance  == 6:
     print(f"Vous avez perdu😭😭! Le mot à deviner était {choix_du_mot}.")
 else:
     print("Félicitations! Vous avez gagné! 🎉🎉")
